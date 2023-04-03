@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".View.UI.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <ProgressBar
+            android:id="@+id/pro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:visibility="gone"
+            android:progressTint="@color/btn_clor" />
+
+        <EditText
+            android:id="@+id/ed_firstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="25dp"
+            android:background="@drawable/ic_corner_12_blue"
+            android:fontFamily="@font/lato"
+            android:hint="Enter First Name"
+            android:inputType="text"
+            android:padding="16dp"
+            android:singleLine="true"
+            android:textColor="@color/txt_color"
+            android:textColorHint="@color/txt_color"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/ed_lastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="25dp"
+            android:background="@drawable/ic_corner_12_blue"
+            android:fontFamily="@font/lato"
+            android:hint="Enter Last Name"
+            android:inputType="text"
+            android:padding="16dp"
+            android:singleLine="true"
+            android:textColor="@color/txt_color"
+            android:textColorHint="@color/txt_color"
+            android:textSize="15sp" />
+
+        <RadioGroup
+            android:id="@+id/rg_gender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="25dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <RadioButton
+                android:id="@+id/rb_male"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:buttonTint="@color/btn_clor"
+                android:fontFamily="@font/lato"
+                android:gravity="center|start"
+                android:padding="5dp"
+                android:text="Male"
+                android:textColor="@color/txt_color"
+                android:textSize="14sp" />
+
+            <RadioButton
+                android:id="@+id/rb_female"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:buttonTint="@color/btn_clor"
+                android:fontFamily="@font/lato"
+                android:gravity="center|start"
+                android:padding="5dp"
+                android:text="Female"
+                android:textColor="@color/txt_color"
+                android:textSize="14sp" />
+
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="25dp"
+            android:background="@drawable/ic_corner_12_blue"
+            android:gravity="center|center_vertical|end"
+            android:paddingStart="5dp"
+            android:paddingTop="5dp"
+            android:paddingEnd="-5dp"
+            android:paddingBottom="5dp">
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/bg_spinner"
+                android:spinnerMode="dialog"
+                android:visibility="visible" />
+        </LinearLayout>
+
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="25dp"
+            android:buttonTint="@color/btn_clor"
+            android:fontFamily="@font/lato"
+            android:paddingStart="10dp"
+            android:text=" Terms and condition"
+            android:textColor="@color/btn_clor"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/ic_corner_12_blue"
+            android:backgroundTint="@color/btn_clor"
+            android:fontFamily="@font/lato"
+            android:gravity="center"
+            android:text="Save"
+            android:textColor="@color/white"
+            android:textFontWeight="600"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/btn_see"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/ic_corner_12_blue"
+            android:backgroundTint="@color/btn_clor"
+            android:fontFamily="@font/lato"
+            android:gravity="center"
+            android:text="See All User"
+            android:textColor="@color/white"
+            android:textFontWeight="600"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="15dp"
+    tools:context=".View.UI.UserDetails">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="15dp"
+            android:fontFamily="@font/lato"
+            android:text="First Name :"
+            android:textColor="@color/hint_color_75"
+            android:textFontWeight="700"
+            android:textSize="15sp" />
+
+
+        <TextView
+            android:id="@+id/txt_first"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lato"
+            android:textColor="@color/txt_color"
+            android:textFontWeight="700"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="15dp"
+            android:fontFamily="@font/lato"
+            android:text="Last Name  :"
+            android:textColor="@color/hint_color_75"
+            android:textFontWeight="700"
+            android:textSize="15sp" />
+
+
+        <TextView
+            android:id="@+id/txt_last"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lato"
+            android:textColor="@color/txt_color"
+            android:textFontWeight="700"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="15dp"
+            android:fontFamily="@font/lato"
+            android:text="Gender        :"
+            android:textColor="@color/hint_color_75"
+            android:textFontWeight="700"
+            android:textSize="15sp" />
+
+
+        <TextView
+            android:id="@+id/txt_gender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lato"
+            android:textColor="@color/txt_color"
+            android:textFontWeight="700"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="15dp"
+            android:fontFamily="@font/lato"
+            android:text="Profession  :"
+            android:textColor="@color/hint_color_75"
+            android:textFontWeight="700"
+            android:textSize="15sp" />
+
+
+        <TextView
+            android:id="@+id/txt_profession"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lato"
+            android:textColor="@color/txt_color"
+            android:textFontWeight="700"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
